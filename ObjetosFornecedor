@@ -1,0 +1,29 @@
+package Pessoa;
+
+public class ObjetosFornecedor {
+
+		    public static void main(String[] args) {
+
+		        Fornecedor fornecedor1 = new Fornecedor();
+
+		        fornecedor1.setrazaoSocial("Rudrian Supplies Ltda");
+		        fornecedor1.setid(101);
+		        fornecedor1.setnomeFantasia("Rudrian Store");
+		        fornecedor1.setcnpj("12.345.678/0001-99");
+		        fornecedor1.setendereco("Rua Principal, 123, São Paulo, SP");
+		        fornecedor1.setfone("(11) 98765-4321");
+		        fornecedor1.setemail("contato@rudriansupplies.com");
+		        fornecedor1.setinscricaoEstadual("123.456.789.012");
+
+		        System.out.println("-----Fornecedor 1!-----");
+		        System.out.println("Razão Social: " + fornecedor1.getrazaoSocial());
+		        System.out.println("ID: " + fornecedor1.getid());
+		        System.out.println("Nome Fantasia: " + fornecedor1.getnomeFantasia());
+		        System.out.println("CNPJ: " + fornecedor1.getcnpj());
+		        System.out.println("Endereço: " + fornecedor1.getendereco());
+		        System.out.println("Telefone: " + fornecedor1.getfone());
+		        System.out.println("Email: " + fornecedor1.getemail());
+				System.out.println(fornecedor1.enviar());
+		        System.out.println("Inscrição Estadual: " + fornecedor1.getinscricaoEstadual());
+	}
+}
