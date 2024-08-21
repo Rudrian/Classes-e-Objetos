@@ -1,0 +1,55 @@
+package Pessoa;
+
+public class Pcgamer {
+
+	String Marca;
+    String Modelo;
+    int Preço;
+	String Cor;
+
+    public void setMarca(String Marca) {
+        this.Marca = Marca;
+    }
+
+    public String getMarca() {
+        return Marca;
+    }
+
+    public void setModelo(String Modelo) {
+        this.Modelo = Modelo;
+    }
+
+    public String getModelo() {
+        return Modelo;
+    }
+
+    public void setPreço(int Preço) {
+        this.Preço = Preço;
+    }
+
+    public int getPreço() {
+        return Preço;
+    }
+
+    public void setCor(String Cor) {
+        this.Cor = Cor;
+    }
+
+    public String getCor() {
+        return Cor;
+    }
+
+    
+    public String ligar() {
+        return "O seu computador esta ligando";
+    }
+    public String desligar() {
+    	return "O seu computador esta desligando";
+    }
+    public String mexer() {
+    	return "Voce esta mexendo o seu mouse";
+    }
+    public String pressionar() {
+    	return "Voce esta digitando";
+    }
+}
