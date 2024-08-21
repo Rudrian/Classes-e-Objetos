@@ -1,0 +1,53 @@
+package Pessoa;
+
+public class PermissaoP {
+
+	String nome;
+	int id;
+	String password;
+	String permissao;
+	String usuario;
+	
+	public String getNome() {
+		return nome;	
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getid() {
+		return id;
+	}
+	public void setid(int id) {
+		this.id = id;
+	}
+	public String getpassword() {
+		return password;
+	}
+	public void setpassword(String password) {
+		this.password = password;
+	}
+	public String getpermissao() {
+		return permissao;
+	}
+	public void setpermissao(String permissao) {
+		this.permissao = permissao;
+	}
+	public String getusuario() {
+		return usuario;
+	}
+	public void setusuario(String usuario) {
+		this.usuario = usuario;
+	}
+	public String senha() {
+        return "Voce esta digitando sua senha";
+    }
+    public String permissao() {
+    	return "Voce permitiu as configurações";
+    }
+    public String logout() {
+    	return "Voce saiu da sua conta";
+    }
+    public String login() {
+    	return "Voce entrou em sua conta";
+    }
+}
