@@ -1,0 +1,69 @@
+package Pessoa;
+
+public class ObjetosPcgamer {
+
+	public static void main(String[] args) {
+		Pcgamer Pcgamer1 = new Pcgamer();
+		Pcgamer Teclado = new Pcgamer();
+		Pcgamer Mouse = new Pcgamer();
+		Pcgamer Computador = new Pcgamer();
+		
+		Pcgamer1.setMarca("Asus");
+		Pcgamer1.setModelo("Monitor gamer TUF VG32VQ1B");
+		Pcgamer1.setCor("Vermelho");
+		Pcgamer1.setPreço(2249);
+		
+		System.out.println("-----Pc 1!-----");
+		System.out.println(Pcgamer1.getMarca());
+		System.out.println(Pcgamer1.getModelo());
+		System.out.println(Pcgamer1.getPreço());
+		System.out.println(Pcgamer1.getCor());    
+		System.out.println(Pcgamer1.ligar());
+		
+        System.out.println("___________________________________");
+		
+		Pcgamer1.setMarca("Logitech");
+		Pcgamer1.setModelo("Teclado Mecânico Gamer Logitech G713 RGB LIGHTSYNC");
+		Pcgamer1.setCor("Branco");
+		Pcgamer1.setPreço(699);
+		
+		System.out.println("-----Teclado!-----");
+		System.out.println(Pcgamer1.getMarca());
+		System.out.println(Pcgamer1.getModelo());
+		System.out.println(Pcgamer1.getPreço());
+		System.out.println(Pcgamer1.getCor());    
+		System.out.println(Pcgamer1.pressionar());
+		
+        System.out.println("___________________________________");
+		
+		
+		Pcgamer1.setMarca("Asus");
+		Pcgamer1.setModelo("Teclado Mecânico Gamer Logitech G713 RGB LIGHTSYNC");
+		Pcgamer1.setCor("Preto com RGB");
+		Pcgamer1.setPreço(212);
+		
+		System.out.println("-----Mouse!-----");
+		System.out.println(Pcgamer1.getMarca());
+		System.out.println(Pcgamer1.getModelo());
+		System.out.println(Pcgamer1.getPreço());
+		System.out.println(Pcgamer1.getCor());    
+		System.out.println(Pcgamer1.mexer());
+		
+        System.out.println("___________________________________");
+		
+		
+		Pcgamer1.setMarca("Corsair");
+		Pcgamer1.setModelo("Gabinete Gamer Corsair 4000D Airflow, Mid-Tower, ATX");
+		Pcgamer1.setCor("Preto com RGB");
+		Pcgamer1.setPreço(699);
+		
+		System.out.println("-----Computador(Gabinete)!-----");
+		System.out.println(Pcgamer1.getMarca());
+		System.out.println(Pcgamer1.getModelo());
+		System.out.println(Pcgamer1.getPreço());
+		System.out.println(Pcgamer1.getCor());    
+		System.out.println(Pcgamer1.ligar());
+		
+		
+	}
+}
