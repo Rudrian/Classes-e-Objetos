@@ -1,0 +1,26 @@
+package Pessoa;
+
+public class ObjetosPermissaoP {
+
+	public static void main(String[] args) {
+
+		PermissaoP usuario1 = new PermissaoP();
+
+		usuario1.setNome("Rudrian");
+		usuario1.setid(001);
+		usuario1.setpassword("9012092");
+		usuario1.setpermissao("Permitir acesso?");
+		usuario1.setusuario("Rubinho");
+
+
+		System.out.println("-----Usuario 1!-----");
+		System.out.println(usuario1.getNome());
+		System.out.println(usuario1.getid());
+		System.out.println(usuario1.getpassword());
+		System.out.println(usuario1.getpermissao());
+		System.out.println(usuario1.permissao());
+		System.out.println(usuario1.getusuario());
+
+	}
+
+}
